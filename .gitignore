@@ -1,4 +1,10 @@
 # Ignore directories where other repos will put their files.
+# For this repo these directories are empty. They are populated during deploy.
+# .gitnull is needed otherwise git does not track these directories.
+# As no tool uses a file called .gitnull, it is safe from conflicts.
 /images/official-artwork/*
+!/images/official-artwork/.gitnull
 /meeting-logs/*
+!/meeting-logs/.gitnull
 /meeting-notes/*
+!/meeting-notes/.gitnull
