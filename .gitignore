@@ -1,0 +1,4 @@
+# Ignore directories where other repos will put their files.
+/images/official-artwork/*
+/meeting-logs/*
+/meeting-notes/*

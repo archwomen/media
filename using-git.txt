@@ -1,0 +1,48 @@
+#### How to Create a new Github repository called hello-world #####
+
+1. Make a new repository in https://github.com/archowmen named hello-world
+
+2. Cd to the directory where your git repo will be
+        cd /hello-world
+
+3. Initiate git
+        git init
+
+4. Create a readme file
+    touch README.txt
+
+5. Edit the readme with your favorite text editor and add some information on your project as well as contact info
+
+6. Add the readme to the local git repo
+        git add README.txt
+
+7. Commit your changes to the new local repository and edit the commit log
+        git commit
+
+8. Connect your local git to the remote git repository
+        git remote add origin https://github.com/archwomen/hello-world.git
+
+9. Push your readme to the remote server's master branch
+        git push origin master
+
+##### How to Push Changes to Remote Git Server #####
+
+1. Make changes to the files you want to change
+
+2. add the files to your local git:
+        git add -A
+
+3. Commit the changes and edit the commit log
+        git commit
+
+4. Push your changes to the remote git server
+        git push
+
+##### How to download files from a git repository #####
+
+1. cd to the directory where you will keep the files
+        cd ~/git
+
+2. Clone the remote git repository to your local machine
+        git clone https://github.com/archwomen/hello-world.git
+
